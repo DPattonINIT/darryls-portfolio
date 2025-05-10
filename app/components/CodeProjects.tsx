@@ -17,7 +17,7 @@ const codeProjects = [
     title: 'BeachParty',
     description:
       'A DJ-focused music platform for sharing and discovering mixes. JSON-driven catalog, mailing list system, and optimized for performance.',
-    image: '/images/beachparty.png',
+    image: '/images/Beachparty.png',
     stack: 'Next.js • JavaScript • TypeScript • Tailwind CSS',
     url: 'https://ezellbrown.vercel.app',
   },

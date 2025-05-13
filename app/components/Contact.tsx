@@ -1,3 +1,6 @@
+import Image from 'next/image';
+
+
 const Contact = () => {
   return (
     <section className="mb-10 flex justify-center pt-10">
@@ -13,14 +16,16 @@ const Contact = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="/images/link.png" alt="LinkedIn" className="w-8 h-8" />
+           <Image src="/images/link.png" alt="LinkedIn" width={32} height={32} />
+
           </a>
           <a
             href="https://github.com/DPattonINIT"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="/images/github.png" alt="GitHub" className="w-8 h-8" />
+            <Image src="/images/github.png" alt="GitHub" width={32} height={32} />
+
           </a>
         </div>
       </div>
